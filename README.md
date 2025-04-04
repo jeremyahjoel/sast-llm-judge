@@ -41,8 +41,8 @@ Our system is designed to scan a variety of deliberately vulnerable applications
 
 | Application | Tech Stack | Status | Date Scanned |
 |-------------|------------|--------|--------------|
-| [OWASP NodeGoat](#owasp-nodegoat) | Node.js, Express, MongoDB | ✅ Complete | April 2, 2025 |
-| [OWASP Juice Shop](#owasp-juice-shop) | Node.js, Angular, REST API | ✅ Complete | April 5, 2025 |
+| [OWASP NodeGoat](#-owasp-nodegoat) | Node.js, Express, MongoDB | ✅ Complete | April 2, 2025 |
+| [OWASP Juice Shop](#-owasp-juice-shop) | Node.js, Angular, REST API | ✅ Complete | April 5, 2025 |
 | DVWA | PHP, MySQL |  | - |
 | WebGoat | Java, Spring | | - |
 | OWASP Mutillidae II | PHP, MySQL |  | - |
@@ -78,7 +78,7 @@ OWASP NodeGoat is a deliberately vulnerable Node.js application designed to show
 | SECVULN-010 | XSS via Context Confusion | /app/routes/profile.js (28) | P2 (Medium) | CWE-79 |
 | SECVULN-011 | Session Management Weaknesses | /app/routes/session.js (116-117), /server.js (78-102) | P1 (High) | CWE-384 |
 
-For detailed analysis of each vulnerability, including attack vectors, exploitation evidence, and remediation guidance, see our [NodeGoat Detailed Analysis](./analysis/nodegoat-detailed.md).
+For detailed analysis of each vulnerability, including attack vectors, exploitation evidence, and remediation guidance, see our [NodeGoat Detailed Analysis](./node-goat-ticket.md).
 
 ## 🛒 OWASP Juice Shop
 
@@ -107,7 +107,7 @@ OWASP Juice Shop is a modern deliberately vulnerable web application written in 
 | SECVULN-007 | Hardcoded JWT Private Key | lib/insecurity.ts (23) | P0 (Critical) | CWE-798 |
 | SECVULN-008 | Insecure Deserialization in YAML Processing | routes/fileUpload.ts (108-137) | P1 (High) | CWE-502 |
 
-For detailed analysis of each vulnerability, including attack vectors, exploitation evidence, and remediation guidance, see our [Juice Shop Detailed Analysis](./analysis/juiceshop-detailed.md).
+For detailed analysis of each vulnerability, including attack vectors, exploitation evidence, and remediation guidance, see our [Juice Shop Detailed Analysis](./juce-shop-ticket.md).
 
 ## 🔍 Cross-Application Analysis
 
